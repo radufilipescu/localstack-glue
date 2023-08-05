@@ -1,0 +1,27 @@
+{
+  "name": "localstack-glue",
+  "version": "1.0.0",
+  "description": "glue internal events of localstack to outside world",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radufilipescu/localstack-glue.git"
+  },
+  "keywords": [
+    "localstack",
+    "glue"
+  ],
+  "author": "Radu Filipescu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/radufilipescu/localstack-glue/issues"
+  },
+  "homepage": "https://github.com/radufilipescu/localstack-glue#readme",
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.385.0",
+    "archiver": "^5.3.1"
+  }
+}
